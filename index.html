@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/oswald/oswald.css">
+    <link rel="stylesheet" href="fonts/Droid_Sans/droid_sans.css">
+</head>
+<body>
+    <script src="js/script.js"></script>
+    <div class="wrapper">
+        <div class="blind" id="blind">
+            <div class="blind__body">
+                <div class="blind__title">INCREDIBLE</div>
+                <div class="blind__text">
+                    <div class="blind__menu">
+                        <div><a href="#header" onclick='blind_clicked()'>Home</a></div>
+                            <div><a href="#about" onclick='blind_clicked()'>About</a></div>
+                                <div><a href="#works" onclick='blind_clicked()'>Gallery</a></div>
+                                    <div><a href="#contact" onclick='blind_clicked()'>Contact</a></div>
+                    </div>
+                </div>
+                <div class="networks">
+                    <a href=""><div class="networks__image"><img src="img/blind/vector_1.png" alt=""></div></a>
+                    <a href=""></a><div class="networks__image"><img src="img/blind/vector_2.png" alt=""></div></a>
+                    <a href=""></a><div class="networks__image"><img src="img/blind/vector_3.png" alt=""></div></a>
+                    <a href=""></a><div class="networks__image"><img src="img/blind/vector_4.png" alt=""></div></a>
+                    <a href=""></a><div class="networks__image"><img src="img/blind/vector_5.png" alt=""></div></a>
+                    <a href=""></a><div class="networks__image"><img src="img/blind/vector_6.png" alt=""></div></a>
+                    <a href=""></a><div class="networks__image"><img src="img/blind/vector_7.png" alt=""></div></a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="header" id="header">
+            <div class="header__burger" onclick="burger()" id="header__burger">
+                <span></span>
+            </div>
+            <div class="header__body">
+            <div class="content">
+                <div class="header__title">Welcome to the incredible</div>
+                <div class="header__text"></div>
+                <div class="header__buttons">
+                    <a href=""><div class="header__button_1 button"><span>Button Text</span></div></a>
+                    <a href=""><div class="header__button_2 button"><span>Button Text</span></div></a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="about" id="about">
+            <div class="about__body">
+                <div class="about__title title">About</div>
+                <div class="about__text text">Our services</div>
+                <div class="about__content">
+                    <div class="about__sectors">
+                        <div class="content__sector">
+                            <div class="sector__icon"><img src="img/about/vector_1.svg" alt=""></div>
+                        <div class="line">
+                            <div class="sector__title">Videos editing</div>
+                            <div class="sector__text">Our company is engaged in video editing of any format</div>
+                            <a href=""><div class="sector__link">Show more</div></a>
+                        </div>
+                        </div>
+                        <div class="content__sector">
+                            <div class="sector__icon"><img src="img/about/vector_2.svg" alt=""></div>
+                        <div class="line">
+                            <div class="sector__title">Editing in Photoshop</div>
+                            <div class="sector__text">Editing your photos in applications such as Adobe Photoshop CC and Adobe Lightroom</div>
+                            <a href=""><div class="sector__link">Show more</div></a>
+                        </div>
+                        </div>
+                        <div class="content__sector">
+                            <div class="sector__icon"><img src="img/about/vector_3.svg" alt=""></div>
+                        <div class="line">
+                            <div class="sector__title">File Recovery</div>
+                            <div class="sector__text">Restoring files from hard drives and restoring CDs</div>
+                            <a href=""><div class="sector__link">Show more</div></a>
+                        </div>
+                        </div>
+                        <div class="content__sector">
+                            <div class="sector__icon"><img src="img/about/vector_4.svg" alt=""></div>
+                        <div class="line">
+                            <div class="sector__title">Upload</div>
+                            <div class="sector__text">We upload all our finished works to the cloud</div>
+                            <a href=""><div class="sector__link">Show more</div></a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="read-more">
+            <div class="read-more__body">
+                <div class="read-more__title">Read more about our services</div>
+                <a href=""><div class="read-more__button button"><span>Read</span></div></a>
+            </div>
+        </div>
+        <div class="works" id="works">
+            <div class="works__body">
+                <div class="works__title title">Our works</div>
+                <div class="works__text text">Here are our works</div>
+                <div class="works__content">
+                    <div class="works__image"><img src="img/works/image_1.png" alt=""></div>
+                    <div class="works__image"><img src="img/works/image_2.png" alt=""></div>
+                    <div class="works__image"><img src="img/works/image_3.png" alt=""></div>
+                    <div class="works__image"><img src="img/works/image_4.png" alt=""></div>
+                    <div class="works__image"><img src="img/works/image_5.png" alt=""></div>
+                    <div class="works__image"><img src="img/works/image_6.png" alt=""></div>
+                    <div class="works__image"><img src="img/works/image_7.png" alt=""></div>
+                    <div class="works__image"><img src="img/works/image_8.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <div class="contact__body">
+                <div class="contact__title title">Contact</div>
+                <div class="contact__text text">Enter your contacts and we will call you back</div>
+                <form action="">
+                <div class="contact__content">
+                    <div class="contact__input">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                </div>
+                    <textarea name="" id="" placeholder="Message"></textarea>
+                    <button class="contact__button">Send</button>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <span>Incredible. Made by Matvey Koloss</span>
+        </div>
+    </div>
+</body>
+</html>
